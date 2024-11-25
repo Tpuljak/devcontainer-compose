@@ -1,0 +1,7 @@
+services:
+    app:
+        image: mcr.microsoft.com/devcontainers/php
+        environment:
+            - MY_ENV_VAR=${MY_ENV_VAR}
+        volumes:
+            - ..:/workspace:cached
