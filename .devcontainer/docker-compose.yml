@@ -1,6 +1,5 @@
 services:
     app:
         image: mcr.microsoft.com/devcontainers/php
-        env_file: .env
         volumes:
             - ..:/workspace:cached
